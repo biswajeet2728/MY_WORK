@@ -1,0 +1,433 @@
+body{
+    background-color: black;
+}
+header{
+    background-color: black;
+}
+
+
+#div{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:red;
+    font-size: xx-large;
+    font-style:bolder;
+    
+    margin-left : 30px;
+
+}
+
+#s{
+    height: 30px;
+    width:80px;
+    margin-left:830px;
+    border-radius:15px;
+    background-color: blue;
+    font-style: bold;
+    color:yellow;
+}
+#s:hover{
+    transform:scale(1.2);
+}
+#in{
+    margin-left:10px;
+    border-radius:15px;
+    width:170px;
+    height: 30px;
+    background-color: white;
+    border-color: brown;
+}
+#in:hover{
+    transform:scale(1.2);
+}
+#b{
+    margin-left:10px;
+    height:30px;
+    margin-right:5px;
+    border-radius:15px;
+    background-color: yellow;
+}
+#b:hover{
+    transform:scale(1.2);
+}
+#main{
+    background-image:url(https://redcapes.it/wp-content/uploads/2019/06/netflix.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 25px;
+
+}
+
+
+
+#Innerdiv{
+    
+    color: White;
+    padding-top: 100px;
+    text-align: center;
+    font-family: Britannic bold;
+    font-size: xx-large;
+    font-style: bolder;
+    
+}
+#p1{
+    text-align: center;
+    font-style :normal;
+    
+}
+#p2{
+    text-align: center;
+    font-size: large;
+    font-style: bold;
+    
+}
+#in2{
+    text-align : left;
+    font-size: large;
+    
+    background-color: White;
+    border-radius : 25px;
+    width : 450px;
+    height : 50px;
+    margin-right : 1px;
+    margin-bottom: 20px;
+    font-Style : Britannic bold;
+    margin-left: 150px;
+
+}
+#in2:hover{
+    
+    transform:scale(1.2);
+}
+#b2{
+    background-color: orange;
+    height : 50px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: large;
+    font-Style : bold;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+#b2:hover{
+    transform:scale(1.2);
+}
+#main2{
+    color:grey;
+    margin-left:50px;
+}
+#img1{
+    width:200px;
+    height:300px;
+    border-radius:25px;
+    margin-left:20px;
+}
+#img2{
+    width:200px;
+    height:300px;
+    border-radius:25px;
+    margin-left:50px;
+    
+}
+#img3{
+    width:200px;
+    height:300px;
+    border-radius:25px;
+    margin-left:50px;
+    
+}
+#img4{
+    width:200px;
+    height:300px;
+    border-radius:25px;
+    margin-left:50px;
+    
+}
+#img5{
+    width:200px;
+    height:300px;
+    border-radius:25px;
+    margin-left:50px;
+    
+}
+#img1:hover{
+    transform:scale(1.1);
+}
+#img2:hover{
+    transform:scale(1.1);
+}
+#img3:hover{
+    transform:scale(1.1);
+}
+#img4:hover{
+    transform:scale(1.1);
+}
+#img5:hover{
+    transform:scale(1.1);
+}
+#idiv {
+    display: flex; 
+    
+    gap: 50px; 
+}
+
+#idiv1, #idiv2, #idiv3,#idiv4 {
+    
+    padding: 10px;
+    
+   
+    background-color: #f9f9f9;
+   
+    text-align: left; 
+    font-style: bold;
+    font-family: Britannic bold;
+    color: white;
+    border-radius: 25px; 
+}
+
+#idiv1 {
+    background-color:  #201f38;
+    width:250px;
+    margin-left: 20px;
+    
+}
+
+#idiv2 {
+    background-color: #201f38;
+    width:250px;
+    
+}
+
+#idiv3 {
+    background-color:  #201f38;
+    width: 250px;
+}
+#idiv4 {
+    background-color: #201f38;
+    width: 250px;
+}
+#idiv1:hover{
+    transform: scale(1.1);
+
+}
+#idiv2:hover{
+    transform: scale(1.1);
+
+}
+#idiv3:hover{
+    transform: scale(1.1);
+
+}
+#idiv4:hover{
+    transform: scale(1.1);
+
+}
+#hdiv1{
+    border-radius:25px;
+    padding: 20px;
+    margin-left: 25px;
+    margin-right:95px;
+    font-style:bold;
+    font-size:xx-large;
+    background-color: grey;
+    color:white;
+    height:30px;
+    transition: ease;
+}
+#hdiv2{
+    border-radius:25px;
+    padding: 20px;
+    margin-right:95px;
+    margin-top:10px;
+    font-style:bold;
+    font-size:xx-large;
+    background-color: grey;
+    color:white;
+    height:30px;
+    margin-left: 25px;
+}
+#hdiv3{
+    border-radius:25px;
+    padding: 20px;
+    margin-right:95px;
+    margin-top:10px;
+    font-style:bold;
+    font-size:xx-large;
+    background-color: grey;
+    color:white;
+    height:30px;
+    margin-left: 25px;
+}
+#hdiv4{
+    border-radius:25px;
+    padding: 20px;
+    margin-right:95px;
+    margin-top:10px;
+    font-style:bold;
+    font-size:xx-large;
+    background-color: grey;
+    color:white;
+    height:30px;
+    margin-left: 25px;
+}
+#hdiv5{
+    border-radius:25px;
+    padding: 20px;
+    margin-right:95px;
+    margin-top:10px;
+    font-style:bold;
+    font-size:xx-large;
+    background-color: grey;
+    color:white;
+    height:30px;
+    margin-left: 25px;
+}
+#hdiv1:hover{
+    transform : scale(1.1);
+}
+#hdiv2:hover{
+    transform : scale(1.1);
+}
+#hdiv3:hover{
+    transform : scale(1.1);
+}
+#hdiv4:hover{
+    transform : scale(1.1);
+}
+#hdiv5:hover{
+    transform : scale(1.1);
+}
+#rp{
+    text-align : center;
+    font-size:large;
+    font-style:bold;
+    color:white;
+}
+#input{
+    text-align : left;
+    font-size: large;
+    
+    background-color: White;
+    border-radius : 25px;
+    width : 450px;
+    height : 50px;
+    margin-right : 1px;
+    margin-bottom: 20px;
+    font-Style : Britannic bold;
+    margin-left: 370px;
+}
+#button{
+    background-color: orange;
+    height : 50px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: large;
+    font-Style : bold;
+    margin-bottom: 20px;
+    margin-right: 100px;
+
+}
+#footer{
+    
+    margin-left:60px;
+    color: grey;
+}
+#ldiv {
+    display : flex;
+    gap : 100px;
+    
+}
+#list3{
+    margin-left : 50px;
+    
+}
+#list4{
+    margin-left : 50px;
+}
+#hl{
+    margin-left : 30px;
+}
+#select{
+    height: 30px;
+    width:80px;
+    margin-left:30px;
+    border-radius:15px;
+    background-color: blue;
+    font-style: bold;
+    color:yellow;
+}
+#lh4{
+    margin-left: 30px;
+    font-style: Britannic bold;
+    
+}
+#slide{
+    background-color: orange;
+    margin-left: 530px;
+    border-radius: 25px;
+    font-size: large;
+    font-Style : bold; 
+    width : 200px;
+    height : 50px;
+}
+
+.S{
+    display: none;
+}
+#img6{
+    width:200px;
+    height:300px;
+    border-radius:25px;
+    margin-left:20px;
+}
+#img7{
+    width:200px;
+    height:300px;
+    border-radius:25px;
+    margin-left:50px;
+}
+#img8{
+    width:200px;
+    height:300px;
+    border-radius:25px;
+    margin-left:50px;
+}
+#img9{
+    width:200px;
+    height:300px;
+    border-radius:25px;
+    margin-left:50px;
+}
+#img10{
+    width:200px;
+    height:300px;
+    border-radius:25px;
+    margin-left:50px;
+}
+#img6:hover{
+    transform:scale(1.1);
+}
+#img7:hover{
+    transform:scale(1.1);
+}
+#img8:hover{
+    transform:scale(1.1);
+}
+#img9:hover{
+    transform:scale(1.1);
+}
+#img10:hover{
+    transform:scale(1.1);
+}
+#input:hover{
+    transform:scale(1.1);
+}
+#button:hover{
+    transform:scale(1.1);
+}
+#slide:hover{
+    transform:scale(1.1);
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Stone Paper Scissor Game</title>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 400px;
+    max-width: 90%;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.score h2 {
+    font-size: 18px;
+    color: #555;
+}
+
+.score p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.choice {
+    font-size: 40px;
+    background: #fff;
+    border: 3px solid #007bff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    background-color: #007bff;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.result-box p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.result-box span {
+    font-weight: bold;
+    color: #ff5722;
+}
+.winning-score {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+#reset-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#reset-btn:hover {
+    background-color: #218838;
+}
+
+
+</style>
+    
+</head>
+<body>
+    <div class="game-container">
+        <h1>Stone Paper Scissor</h1>
+
+        <div class="scoreboard">
+            <div class="score">
+                <h2>You</h2>
+                <p id="user-score">0</p>
+            </div>
+            <div class="score">
+                <h2>Computer</h2>
+                <p id="computer-score">0</p>
+            </div>
+        </div>
+
+        <p class="winning-score">First to 5 Wins!</p>
+
+        <div class="choices">
+            <button class="choice" id="stone">🪨</button>
+            <button class="choice" id="paper">📄</button>
+            <button class="choice" id="scissor">✂️</button>
+        </div>
+
+        <div class="result-box">
+            <p>You chose: <span id="user-choice">-</span></p>
+            <p>Computer chose: <span id="computer-choice">-</span></p>
+            <p><strong>Result:</strong> <span id="result">-</span></p>
+        </div>
+
+        <button id="reset-btn">Reset Game</button>
+    </div>
+
+    <script src="stone game.js"></script>
+</body>
+</html>
