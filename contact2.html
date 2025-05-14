@@ -107,24 +107,26 @@ tr td{
 <div class="contact-box">
 <div class="contact-left">
 <h3>Send your request</h3>
-<form>
+<form action="https://formspree.io/f/mwkgkweo" method="POST">
 <div class="input-row">
 <div class="input-group">
 <label>Name:-</label>
-<input type="text" placeholder="">
+<input type="text" placeholder="" required>
 </div>
 <div class="input-group">
 <label>Phone:-</label>
-<input type="text" placeholder="">
+<input type="number" placeholder="">
 </div>
 
 <div class="input-group">
 <label>Email:-</label>
-<input type="E-mail" placeholder="">
+ <input type="text" id="email" name="email" 
+         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+         title="Enter a valid email address" required>
 </div>
 <div class="input-group">
 <label>Subject:-</label>
-<input type="Subject" placeholder="">
+<input type="Subject" placeholder="" required>
 </div>
 </div>
 <label>Message</label>
